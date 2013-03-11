@@ -1,0 +1,13 @@
+Index: trunk/class.tx_ncstaticfilecache.php
+===================================================================
+--- trunk/class.tx_ncstaticfilecache.php	(Revision 72604)
++++ trunk/class.tx_ncstaticfilecache.php	(Arbeitskopie)
+@@ -58,7 +58,7 @@
+ class tx_ncstaticfilecache {
+ 	protected $extKey = 'nc_staticfilecache';
+ 	protected $fileTable = 'tx_ncstaticfilecache_file';
+-	protected $cacheDir = 'typo3temp/tx_ncstaticfilecache/';
++	protected $cacheDir = 'typo3temp/tx_ncstaticfilecache/cache/';
+ 	protected $isDebugEnabled = false;
+ 	protected $configuration = array();
+ 	protected $setup = array();
